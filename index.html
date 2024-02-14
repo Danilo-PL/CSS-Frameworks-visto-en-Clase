@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-e1NO5iZOeMjA4lMSd2T87MY/21u5tLfbra9YU4F0W46xqEYHJH4J2Aq9aIpKtGTj" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #sidebar {
+            background-color: #b8daff; /* Color azul más suave */
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Barra superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <img class="me-2" src="https://imgs.search.brave.com/u-0x_2RWK0Ns_9Pau-obQ9bRzg3570h0IrQl9Tw9BTY/rs:fit:860:0:0/g:ce/aHR0cDovL2kxMjc2/LnBob3RvYnVja2V0/LmNvbS9hbGJ1bXMv/eTQ4MC9UYWtlX0Z1/bWlrby8ybmR0Y2dl/bl96cHM4NmQyOWQz/NC5wbmc" width="120" height="40" alt="" srcset="">
+            <div class="d-flex mx-auto">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Barra superior inferior-->
+    <div class="bg-primary">
+        <ul class="nav flex-row">
+            <li class="nav-item">
+                <a class="nav-link active text-dark" href="#">All Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Magic: The Gathering</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">YuGiOh</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Pokemon</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">HeroClix</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Pre-Sale</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Buylist</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Hot Buys</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contact US</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Cuerpo de la pagina -->
+    <div>
+        <!-- Carrucel -->
+        <div id="imageCarousel" class="carousel slide container mt-2" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/YGOPhantomNightmareWebNA.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/MTGMurdersWebNA.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/PokePaldeanFatesWebNA.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <!-- Cards items -->
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/MTGMKMFPButton.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold small">MTG Murders at Karlov Manor</h5>
+                        <p class="card-text small">Play detective as you collect evidence, don disguises, and identify suspects to decipher the deadly murder mystery at the heart of Ravnica.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/YGOPhantNightFPButton.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold small">Yugioh Phantom Nightmare</h5>
+                        <p class="card-text small">Unlock the terrifying secrets of new themes, find brand-new cards for recent favorites, and meet more memorable monsters!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/PokePaldFatesFPButton.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold small">Pokemon Paldean Fates</h5>
+                        <p class="card-text small">Shiny Pikachu blazes the path forward as Tinkaton, Ceruledge, Dondozo, and more than 100 other Shiny Pokemon follow.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 rounded">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/WheelsofVengeanceHeroclixFP.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold small">Marvel HeroClix: Wheels of Vengeance</h5>
+                        <p class="card-text small">The crackle of flames, the rattle of chains, the revving of engines, the unmistakable sound of GHOST RIDER! Experience the Spirit of Vengeance like never before in this bone-chilling HeroClix set!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/DBSFP.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold small">Dragon Ball Super TCG</h5>
+                        <p class="card-text small">Dragon Ball Super Card Game is a card game with characters from not just Dragon Ball Super, but countless other Dragon Ball series! Get card singles and more today!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-2" style="width: 18rem;">
+                        <img src="https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/categories/DigimonFPButton.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold small">Digimon</h5>
+                        <p class="card-text small">Get Digimon card singles, booster boxes, and more!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <li>
+                            SHOP
+                            <ul>
+                                <li>Magic: The Gathering</li>
+                                <hr>
+                                <li>YuGiOh</li>
+                                <hr>
+                                <li>Pokemon</li>
+                                <hr>
+                                <li>HeroClix</li>
+                                <hr>
+                                <li>Digimon</li>
+                                <hr>
+                                <li>Dragon Ball Super TCG</li>
+                                <hr>
+                                <li>One Piece TCG</li>
+                                <hr>
+                                <li>Other CCGs</li>
+                                <hr>
+                                <li>Disney Lorcana</li>
+                                <hr>
+                                <li>Universus</li>
+                                <hr>
+                                <li>Game Supplies</li>
+                                <hr>
+                                <li>Graded Cards</li>
+                                <hr>
+                                <li>Troll Live</li>
+                                <hr>
+                                <li>Specials & Lots</li>
+                                <hr>
+                                <li>CCG Select</li>
+                                <hr>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6 mt-2">
+                            <ul class="list-unstyled">
+                                <li>
+                                    SELL
+                                    <ul>
+                                        <li>EVO Consignment</li>
+                                        <hr>
+                                        <li>Our Buylist</li>
+                                        <hr>
+                                        <li>Selling Guides</li>
+                                        <hr>
+                                        <li>How to Sell</li>
+                                        <hr>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <ul class="list-unstyled">
+                                <li>
+                                    HELP
+                                    <ul>
+                                        <li>FAQ</li>
+                                        <hr>
+                                        <li>Contact Us</li>
+                                        <hr>
+                                        <li>Leave us Feedback</li>
+                                        <hr>
+                                        <li>Product Condition Guide</li>
+                                        <hr>
+                                        <li>Zonos Checkout</li>
+                                        <hr>
+                                        <li>Wizards of the Coast</li>
+                                        <hr>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li>
+                                    ABOUT
+                                    <ul>
+                                        <li>About Us</li>
+                                        <hr>
+                                        <li>Careers</li>
+                                        <hr>
+                                        <li>Conditions of Use</li>
+                                        <hr>
+                                        <li>Privacy Policy</li>
+                                        <hr>
+                                        <li>Terms and Conditions</li>
+                                        <hr>
+                                        <li>Site Map</li>
+                                        <hr>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <ul class="list-unstyled">
+                                <li>
+                                    ACCOUNT 
+                                    <ul>
+                                        <li>Your Account</li>
+                                        <hr>
+                                        <li>Orders</li>
+                                        <hr>
+                                        <li>Buylists</li>
+                                        <hr>
+                                        <li>Shipping Addresses</li>
+                                        <hr>
+                                        <li>Credit History</li>
+                                        <hr>
+                                        <li>Wishlist</li>
+                                        <hr>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+          
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
